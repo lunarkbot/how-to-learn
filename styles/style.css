@@ -51,7 +51,7 @@
 
 .header__link {
   text-decoration: none;
-  color: #2f90ed;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -70,7 +70,7 @@
   right: 0;
   height: 568px;
   width: 568px;
-  background-color: #2f90ed;
+  background-color: #2f80ed;
 }
 
 .logo {
@@ -111,7 +111,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
-  color: #2f90ed;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -266,7 +266,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  color: #2f90ed;
+  color: #2f80ed;
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;
