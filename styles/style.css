@@ -332,7 +332,9 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 16px 0;
 }
 
 .footer__column-link {
