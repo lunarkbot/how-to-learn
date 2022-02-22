@@ -4,4 +4,6 @@
   justify-content: flex-start;
   max-width: 920px;
   margin: 0 auto;
+  list-style-type: none;
+  padding-left: 0;
 }
