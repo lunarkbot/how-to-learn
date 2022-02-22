@@ -1,0 +1,8 @@
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__heading_theme_dark::before {
+  counter-increment: kaufman;
+  content: counter(kaufman);
+}

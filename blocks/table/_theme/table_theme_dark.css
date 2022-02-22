@@ -1,0 +1,7 @@
+.table_theme_dark {
+  counter-reset: kaufman;
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
