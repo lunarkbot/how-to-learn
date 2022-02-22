@@ -235,6 +235,49 @@
   padding-top: 160px;
 }
 
+
+.feynman {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 890px;
+  background-color: #f2f2f2;
+  position: relative;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 867px 637px;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 100px auto 70px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.feynman__subtitle {
+  margin: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: black;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
 .digits {
   background-color: white;
 }
@@ -328,46 +371,74 @@
   margin-bottom: 0;
 }
 
-.feynman {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  min-height: 890px;
+.khan {
+  padding-top: 105px;
   background-color: #f2f2f2;
-  position: relative;
-  background-image: url(../images/feynman.png);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 867px 637px;
 }
 
-.feynman__title {
-  width: 648px;
-  margin: 100px auto 70px;
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
   line-height: 1.15;
-  font-size: 120px;
+  font-size: 60px;
   font-weight: bold;
-  text-align: center;
-  color: black;
+  margin: 0 0 50px;
 }
 
-.feynman__subtitle {
-  margin: 0;
-  line-height: 51px;
-  font-size: 36px;
+.khan__quote-wrap {
+  margin: 0 0 68px;
+}
+
+.khan__quote {
+  width: 790px;
+  margin: 0 0 36px;
+  line-height: 34px;
+  font-size: 24px;
   font-weight: normal;
-  color: black;
 }
 
-.feynman__link {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  color: #2f80ed;
+.khan__quote-author {
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  margin-right: 48px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
   text-decoration: none;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
+  color: #2f80ed;
+  align-self: flex-start;
 }
 
 .kaufman {
