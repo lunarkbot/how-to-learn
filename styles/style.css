@@ -10,6 +10,14 @@
   background-color: white;
 }
 
+.link {
+  transition: opacity .4s linear;
+}
+
+.link:hover {
+  opacity: .6;
+}
+
 .block-spacing {
   margin-bottom: 100px;
 }
